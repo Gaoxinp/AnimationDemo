@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+duration:动画时长
+fromXScale、fromYScale:动画初始时的比例，为0.0到1.0之间的浮点型数值
+pivotX、pivotY:动画初始时从哪一点出现，左上角：0%、0% 左下角0%、100%  右上角100%、0%  右下角100%、100%  中心50%、50%
+toXScale、toYScale:动画结束时的比例，为0.0到1.0之间的浮点型数值
+-->
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <scale
+        android:duration="1000"
+        android:fromXScale="0.0"
+        android:fromYScale="0.0"
+        android:pivotX="0%"
+        android:pivotY="0%"
+        android:toXScale="1.0"
+        android:toYScale="1.0"></scale>
+</set>
